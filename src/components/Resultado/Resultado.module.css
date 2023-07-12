@@ -23,3 +23,13 @@
   color: #176B87;
   /* text-decoration: underline; */
 }
+
+@media screen and (max-width: 1024px) {
+  .containerResultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 50vw; */
+    padding: 12px;
+  }
+}
